@@ -56,7 +56,6 @@ impl Widget<(f64, f64)> for Clock {
     }
 
     fn update(&mut self, ctx: &mut UpdateCtx, old_data: &(f64, f64), data: &(f64, f64), env: &Env) {
-        println!("update value!");
         self.start_h1 = old_data.0;
         self.start_h2 = old_data.1;
         self.start_animation();

@@ -19,8 +19,7 @@ impl PositionalLens {
             7 => POS_7[self.0],
             8 => POS_8[self.0],
             9 => POS_9[self.0],
-            255 => POS_IDLE[self.0],
-            _ => (0.0, 0.0)
+            _ => (1.5, 1.5)
         };
 
         const RATIO: f64 = PI / 2.0;
@@ -48,15 +47,6 @@ const LT: (f64, f64) = (2.0, 3.0); // LEFT-TOP
 const LB: (f64, f64) = (2.0, 1.0); // LEFT-BOTTOM
 const RT: (f64, f64) = (0.0, 3.0); // RIGHT-TOP
 const RB: (f64, f64) = (0.0, 1.0); // RIGHT-BOTTOM
-
-const POS_IDLE: [(f64, f64); 30] = [
-    ID, ID, ID, ID, ID,
-    ID, ID, ID, ID, ID,
-    ID, ID, ID, ID, ID,
-    ID, ID, ID, ID, ID,
-    ID, ID, ID, ID, ID,
-    ID, ID, ID, ID, ID,
-];
 
 const POS_0: [(f64, f64); 30] = [
     RB, HO, HO, HO, LB,
