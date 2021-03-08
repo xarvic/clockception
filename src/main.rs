@@ -33,10 +33,48 @@ fn main_ui() -> impl Widget<u8> {
         .with_default_spacer()
         .with_child(
             Button::new("0").on_click(|_, b: &mut u8, _|*b = 0)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("1").on_click(|_, b: &mut u8, _|*b = 1)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("2").on_click(|_, b: &mut u8, _|*b = 2)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("3").on_click(|_, b: &mut u8, _|*b = 3)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("4").on_click(|_, b: &mut u8, _|*b = 4)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("5").on_click(|_, b: &mut u8, _|*b = 5)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("6").on_click(|_, b: &mut u8, _|*b = 6)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("7").on_click(|_, b: &mut u8, _|*b = 7)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("8").on_click(|_, b: &mut u8, _|*b = 8)
+        )
+        .with_default_spacer()
+        .with_child(
+            Button::new("9").on_click(|_, b: &mut u8, _|*b = 9)
         );
     Flex::column()
         .with_flex_child(big_clock().align_horizontal(UnitPoint::CENTER), 1.0)
+        .with_default_spacer()
         .with_child(controls)
+        .with_default_spacer()
 }
 
 fn main() {
