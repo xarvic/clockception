@@ -9,10 +9,14 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cc637a1-e8df-4a9e-a657-a4346d479b1e" name="Default Changelist" comment="implemented remaining numbers">
+    <list default="true" id="0cc637a1-e8df-4a9e-a657-a4346d479b1e" name="Default Changelist" comment="changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clock.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/clock.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/position_lens.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/position_lens.rs" afterDir="false" />
+    </list>
+    <list id="5933ff1a-9033-4297-a47a-feb7b3ccf8ec" name="Changes by joshu" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +55,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="language.rust.rustfmt" />
+    <property name="settings.editor.splitter.proportion" value="0.25083613" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package clockception --bin clockception" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -75,6 +77,8 @@
     </configuration>
   </component>
   <component name="RustProjectSettings">
+    <option name="externalLinter" value="Clippy" />
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
   </component>
@@ -87,7 +91,13 @@
       <option name="presentableId" value="Default" />
       <updated>1615193910497</updated>
       <workItem from="1615193912173" duration="7996000" />
-      <workItem from="1615202108274" duration="3936000" />
+      <workItem from="1615202108274" duration="5257000" />
+      <workItem from="1615235179030" duration="1790000" />
+      <workItem from="1615377884681" duration="1498000" />
+      <workItem from="1615381404388" duration="1216000" />
+      <workItem from="1615387086481" duration="1427000" />
+      <workItem from="1615390633748" duration="8000" />
+      <workItem from="1619518450626" duration="762000" />
     </task>
     <task id="LOCAL-00001" summary="created clock">
       <created>1615202967977</created>
@@ -103,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615205564020</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed">
+      <created>1615206051106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615206051106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +141,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created clock" />
     <MESSAGE value="implemented remaining numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented remaining numbers" />
+    <MESSAGE value="changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
