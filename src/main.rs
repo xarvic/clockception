@@ -5,7 +5,6 @@ use crate::position_lens::PositionalLens;
 
 pub mod clock;
 pub mod position_lens;
-
 fn clock_row(y: u8) -> impl Widget<u8> {
     Flex::row()
         .with_child(Clock::new().lens(PositionalLens::new(0, y)))
